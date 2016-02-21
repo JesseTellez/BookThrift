@@ -1,1 +1,6 @@
 # BookThrift
+
+Project Descriptoion
+
+Installation
+
