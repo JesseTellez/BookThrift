@@ -516,26 +516,28 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Dkb-rG-mWE">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EPw-2E-fbu">
-                                <rect key="frame" x="51" y="28" width="498" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EPw-2E-fbu">
+                                <rect key="frame" x="51" y="30" width="498" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Author" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="218-Z7-Cwz">
+                                <rect key="frame" x="51" y="80" width="498" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$$$" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BZH-TM-wYj">
-                                <rect key="frame" x="243" y="372" width="115" height="30"/>
+                                <rect key="frame" x="243" y="380" width="115" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lGE-2H-tMz">
-                                <rect key="frame" x="141" y="167" width="319" height="175"/>
-                                <color key="backgroundColor" red="0.96470588239999999" green="0.58823529409999997" blue="0.41176470590000003" alpha="0.75" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ISBN" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sBF-QK-VaT">
+                                <rect key="frame" x="51" y="130" width="498" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzO-nx-sTn">
-                                <rect key="frame" x="209" y="432" width="183" height="50"/>
+                                <rect key="frame" x="209" y="440" width="183" height="50"/>
                                 <color key="backgroundColor" red="0.1450980392" green="0.79607843140000001" blue="0.78823529410000004" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
                                 <state key="normal" title="Sell">
@@ -545,23 +547,35 @@
                                     <action selector="sellbuttonpressed:" destination="iCT-Fu-uiZ" eventType="touchUpInside" id="e9f-WE-xaj"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ISBN" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sBF-QK-VaT">
-                                <rect key="frame" x="51" y="129" width="498" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lGE-2H-tMz">
+                                <rect key="frame" x="141" y="185" width="319" height="175"/>
+                                <color key="backgroundColor" red="0.96470588239999999" green="0.58823529409999997" blue="0.41176470590000003" alpha="0.75" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="Xen-Si-KdY"/>
+                                </constraints>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Author" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="218-Z7-Cwz">
-                                <rect key="frame" x="51" y="81" width="498" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="sBF-QK-VaT" firstAttribute="leading" secondItem="kRe-xS-jkr" secondAttribute="leading" constant="51" id="8T0-a2-zZY"/>
                             <constraint firstItem="xH9-4A-3mE" firstAttribute="top" secondItem="Dkb-rG-mWE" secondAttribute="bottom" id="8bc-yU-aOI"/>
+                            <constraint firstItem="sBF-QK-VaT" firstAttribute="top" secondItem="218-Z7-Cwz" secondAttribute="bottom" constant="20" id="Cfo-Rc-fRf"/>
                             <constraint firstItem="Dkb-rG-mWE" firstAttribute="top" secondItem="kRe-xS-jkr" secondAttribute="top" id="DOJ-n3-t4A"/>
+                            <constraint firstAttribute="trailing" secondItem="sBF-QK-VaT" secondAttribute="trailing" constant="51" id="JNV-ck-Ajt"/>
+                            <constraint firstItem="218-Z7-Cwz" firstAttribute="leading" secondItem="kRe-xS-jkr" secondAttribute="leading" constant="51" id="Kvj-Oi-5na"/>
                             <constraint firstAttribute="trailing" secondItem="Dkb-rG-mWE" secondAttribute="trailing" id="Oba-04-kX0"/>
+                            <constraint firstItem="lGE-2H-tMz" firstAttribute="centerX" secondItem="kRe-xS-jkr" secondAttribute="centerX" id="RVn-EN-JMt"/>
+                            <constraint firstItem="218-Z7-Cwz" firstAttribute="top" secondItem="EPw-2E-fbu" secondAttribute="bottom" constant="20" id="T4P-ai-lzI"/>
+                            <constraint firstAttribute="trailing" secondItem="EPw-2E-fbu" secondAttribute="trailing" constant="51" id="Ybu-fN-NwM"/>
+                            <constraint firstItem="lGE-2H-tMz" firstAttribute="top" secondItem="sBF-QK-VaT" secondAttribute="bottom" constant="25" id="igs-UY-MUz"/>
+                            <constraint firstItem="EPw-2E-fbu" firstAttribute="leading" secondItem="kRe-xS-jkr" secondAttribute="leading" constant="51" id="kIO-y2-8qj"/>
+                            <constraint firstItem="EPw-2E-fbu" firstAttribute="top" secondItem="Xn3-Jj-L26" secondAttribute="bottom" constant="10" id="rmX-tU-aKg"/>
                             <constraint firstItem="Dkb-rG-mWE" firstAttribute="leading" secondItem="kRe-xS-jkr" secondAttribute="leading" id="wku-cu-PMF"/>
+                            <constraint firstAttribute="trailing" secondItem="218-Z7-Cwz" secondAttribute="trailing" constant="51" id="zbc-VI-pjQ"/>
                         </constraints>
                     </view>
                     <connections>

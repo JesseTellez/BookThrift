@@ -30,7 +30,7 @@ class AddBookVC: UIViewController {
         if let title1 = titleTextField.text, author = authortextfield.text, description=descriptiontextfield.text, price = pricetextfield.text, isbn = isbnTextField.text{
             if title1.isEmpty || title1 == "" || author.isEmpty || author == "" || description.isEmpty || description == "" || price.isEmpty || price == "" || isbn.isEmpty || isbn == "" {
                 
-                let alert = UIAlertController(title: "Oops", message: "please enter a password", preferredStyle: .Alert)
+                let alert = UIAlertController(title: "Oops", message: "please fill out all feilds", preferredStyle: .Alert)
                 let action = UIAlertAction(title: "OK", style: .Default, handler: { _ in
                     
                 })
@@ -38,8 +38,8 @@ class AddBookVC: UIViewController {
                 self.presentViewController(alert, animated: true){}
             }
             else {
-                
-                book = TextBook(name: title1, isbn: isbn, price: 0, description: description, author: author, catagory: "Biology")
+                let intPrice = Int((price))!
+                book = TextBook(name: title1, isbn: isbn, price: intPrice, description: description, author: author, catagory: "Biology")
                 
                 book.savebook()
             }
