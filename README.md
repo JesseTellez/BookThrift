@@ -1,6 +1,6 @@
 # BookThrift
 
-Project Descriptoion
+Project Description
 
 Installation
 
