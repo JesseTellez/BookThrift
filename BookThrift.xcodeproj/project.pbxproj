@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45BBFD4D1C79ABF100048B87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD4C1C79ABF100048B87 /* LoginViewController.swift */; };
+		45BBFD4F1C79B1AC00048B87 /* SlideOutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD4E1C79B1AC00048B87 /* SlideOutCell.swift */; };
+		45BBFD511C79BA8E00048B87 /* MajorDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD501C79BA8E00048B87 /* MajorDetailVC.swift */; };
+		45BBFD531C79BADB00048B87 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD521C79BADB00048B87 /* User.swift */; };
+		45BBFD551C79BB1B00048B87 /* TextBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD541C79BB1B00048B87 /* TextBook.swift */; };
+		45BBFD571C79CC9500048B87 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD561C79CC9500048B87 /* SignUp.swift */; };
+		45BBFD591C79F02900048B87 /* logoncell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD581C79F02900048B87 /* logoncell.swift */; };
+		45BBFD5B1C7A13C000048B87 /* frontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD5A1C7A13C000048B87 /* frontViewController.swift */; };
+		45BBFD5D1C7A280D00048B87 /* AddBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBFD5C1C7A280D00048B87 /* AddBookVC.swift */; };
 		45E8A05B1C7938DB0022501E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A05A1C7938DB0022501E /* AppDelegate.swift */; };
 		45E8A05D1C7938DB0022501E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A05C1C7938DB0022501E /* ViewController.swift */; };
 		45E8A0601C7938DB0022501E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E8A05E1C7938DB0022501E /* Main.storyboard */; };
@@ -14,6 +23,14 @@
 		45E8A0651C7938DB0022501E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E8A0631C7938DB0022501E /* LaunchScreen.storyboard */; };
 		45E8A0701C7938DC0022501E /* BookThriftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A06F1C7938DC0022501E /* BookThriftTests.swift */; };
 		45E8A07B1C7938DC0022501E /* BookThriftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A07A1C7938DC0022501E /* BookThriftUITests.swift */; };
+		45E8A08C1C795C100022501E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A08B1C795C100022501E /* SWRevealViewController.m */; };
+		45E8A08E1C7963500022501E /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A08D1C7963500022501E /* BackTableVC.swift */; };
+		45E8A0901C796D660022501E /* UniversityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A08F1C796D660022501E /* UniversityVC.swift */; };
+		45E8A0921C7970060022501E /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A0911C7970060022501E /* University.swift */; };
+		45E8A0961C7976740022501E /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A0951C7976740022501E /* CSV.swift */; };
+		45E8A09B1C79814A0022501E /* UniCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8A09A1C79814A0022501E /* UniCell.swift */; };
+		45E8A09F1C798BCE0022501E /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 45E8A09E1C798BCE0022501E /* pokemon.csv */; };
+		45E8A0A11C798D7D0022501E /* Universities.csv in Resources */ = {isa = PBXBuildFile; fileRef = 45E8A0A01C798D7D0022501E /* Universities.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45BBFD4C1C79ABF100048B87 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45BBFD4E1C79B1AC00048B87 /* SlideOutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutCell.swift; sourceTree = "<group>"; };
+		45BBFD501C79BA8E00048B87 /* MajorDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorDetailVC.swift; sourceTree = "<group>"; };
+		45BBFD521C79BADB00048B87 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		45BBFD541C79BB1B00048B87 /* TextBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBook.swift; sourceTree = "<group>"; };
+		45BBFD561C79CC9500048B87 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		45BBFD581C79F02900048B87 /* logoncell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logoncell.swift; sourceTree = "<group>"; };
+		45BBFD5A1C7A13C000048B87 /* frontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frontViewController.swift; sourceTree = "<group>"; };
+		45BBFD5C1C7A280D00048B87 /* AddBookVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookVC.swift; sourceTree = "<group>"; };
 		45E8A0571C7938DB0022501E /* BookThrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookThrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E8A05A1C7938DB0022501E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E8A05C1C7938DB0022501E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,16 @@
 		45E8A0761C7938DC0022501E /* BookThriftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookThriftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E8A07A1C7938DC0022501E /* BookThriftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookThriftUITests.swift; sourceTree = "<group>"; };
 		45E8A07C1C7938DC0022501E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E8A0891C795C100022501E /* BookThrift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookThrift-Bridging-Header.h"; sourceTree = "<group>"; };
+		45E8A08A1C795C100022501E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		45E8A08B1C795C100022501E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		45E8A08D1C7963500022501E /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		45E8A08F1C796D660022501E /* UniversityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityVC.swift; sourceTree = "<group>"; };
+		45E8A0911C7970060022501E /* University.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		45E8A0951C7976740022501E /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		45E8A09A1C79814A0022501E /* UniCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniCell.swift; sourceTree = "<group>"; };
+		45E8A09E1C798BCE0022501E /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		45E8A0A01C798D7D0022501E /* Universities.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Universities.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +110,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45BBFD491C79AB9C00048B87 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45E8A05C1C7938DB0022501E /* ViewController.swift */,
+				45E8A08D1C7963500022501E /* BackTableVC.swift */,
+				45E8A08F1C796D660022501E /* UniversityVC.swift */,
+				45BBFD4C1C79ABF100048B87 /* LoginViewController.swift */,
+				45BBFD501C79BA8E00048B87 /* MajorDetailVC.swift */,
+				45BBFD561C79CC9500048B87 /* SignUp.swift */,
+				45BBFD5A1C7A13C000048B87 /* frontViewController.swift */,
+				45BBFD5C1C7A280D00048B87 /* AddBookVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		45BBFD4A1C79ABB100048B87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45E8A0911C7970060022501E /* University.swift */,
+				45BBFD521C79BADB00048B87 /* User.swift */,
+				45BBFD541C79BB1B00048B87 /* TextBook.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		45BBFD4B1C79ABC300048B87 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				45E8A09E1C798BCE0022501E /* pokemon.csv */,
+				45E8A0A01C798D7D0022501E /* Universities.csv */,
+				45E8A0951C7976740022501E /* CSV.swift */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		45E8A04E1C7938DB0022501E = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +168,12 @@
 		45E8A0591C7938DB0022501E /* BookThrift */ = {
 			isa = PBXGroup;
 			children = (
+				45BBFD4B1C79ABC300048B87 /* Assets */,
+				45BBFD4A1C79ABB100048B87 /* Models */,
+				45BBFD491C79AB9C00048B87 /* Controllers */,
+				45E8A0991C79812A0022501E /* Views */,
+				45E8A0881C795BE90022501E /* Supporting Files */,
 				45E8A05A1C7938DB0022501E /* AppDelegate.swift */,
-				45E8A05C1C7938DB0022501E /* ViewController.swift */,
 				45E8A05E1C7938DB0022501E /* Main.storyboard */,
 				45E8A0611C7938DB0022501E /* Assets.xcassets */,
 				45E8A0631C7938DB0022501E /* LaunchScreen.storyboard */,
@@ -123,6 +198,26 @@
 				45E8A07C1C7938DC0022501E /* Info.plist */,
 			);
 			path = BookThriftUITests;
+			sourceTree = "<group>";
+		};
+		45E8A0881C795BE90022501E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E8A08A1C795C100022501E /* SWRevealViewController.h */,
+				45E8A08B1C795C100022501E /* SWRevealViewController.m */,
+				45E8A0891C795C100022501E /* BookThrift-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E8A0991C79812A0022501E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45E8A09A1C79814A0022501E /* UniCell.swift */,
+				45BBFD4E1C79B1AC00048B87 /* SlideOutCell.swift */,
+				45BBFD581C79F02900048B87 /* logoncell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +327,8 @@
 				45E8A0651C7938DB0022501E /* LaunchScreen.storyboard in Resources */,
 				45E8A0621C7938DB0022501E /* Assets.xcassets in Resources */,
 				45E8A0601C7938DB0022501E /* Main.storyboard in Resources */,
+				45E8A09F1C798BCE0022501E /* pokemon.csv in Resources */,
+				45E8A0A11C798D7D0022501E /* Universities.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +353,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BBFD4D1C79ABF100048B87 /* LoginViewController.swift in Sources */,
+				45BBFD511C79BA8E00048B87 /* MajorDetailVC.swift in Sources */,
+				45E8A0901C796D660022501E /* UniversityVC.swift in Sources */,
+				45BBFD591C79F02900048B87 /* logoncell.swift in Sources */,
 				45E8A05D1C7938DB0022501E /* ViewController.swift in Sources */,
 				45E8A05B1C7938DB0022501E /* AppDelegate.swift in Sources */,
+				45BBFD4F1C79B1AC00048B87 /* SlideOutCell.swift in Sources */,
+				45E8A08E1C7963500022501E /* BackTableVC.swift in Sources */,
+				45BBFD571C79CC9500048B87 /* SignUp.swift in Sources */,
+				45E8A09B1C79814A0022501E /* UniCell.swift in Sources */,
+				45BBFD531C79BADB00048B87 /* User.swift in Sources */,
+				45E8A08C1C795C100022501E /* SWRevealViewController.m in Sources */,
+				45BBFD5B1C7A13C000048B87 /* frontViewController.swift in Sources */,
+				45BBFD5D1C7A280D00048B87 /* AddBookVC.swift in Sources */,
+				45E8A0961C7976740022501E /* CSV.swift in Sources */,
+				45BBFD551C79BB1B00048B87 /* TextBook.swift in Sources */,
+				45E8A0921C7970060022501E /* University.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +511,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BookThrift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BookThrift.BookThrift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookThrift/BookThrift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +525,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BookThrift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BookThrift.BookThrift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookThrift/BookThrift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +601,7 @@
 				45E8A0811C7938DC0022501E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E8A0821C7938DC0022501E /* Build configuration list for PBXNativeTarget "BookThriftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +610,7 @@
 				45E8A0841C7938DC0022501E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E8A0851C7938DC0022501E /* Build configuration list for PBXNativeTarget "BookThriftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +619,7 @@
 				45E8A0871C7938DC0022501E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

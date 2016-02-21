@@ -11,13 +11,23 @@ import UIKit
 class ViewController: UIViewController {
     
 
+    @IBOutlet weak var OpenBtn: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        OpenBtn.target = self.revealViewController()
+        OpenBtn.action = Selector("revealToggle:")
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        self.navigationController?.navigationBarHidden = true
     }
-
-
-    @IBOutlet weak var sigonButton: UIButton!
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        self.navigationController?.navigationBarHidden = true
+    }
 
 }
 
